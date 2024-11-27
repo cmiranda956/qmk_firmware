@@ -56,9 +56,6 @@ static void oled_render_layer_state(void) {
         case 3:
             oled_write_ln_P(PSTR("Adjust"), false);
             break;
-        case 4:
-            oled_write_ln_P(PSTR("Adjust"), false);
-            break;
         default:
             oled_write_ln_P(PSTR("Undef"), false);
             break;
